@@ -1,18 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import {Header} from "./Header";
-import {Footer} from "./Footer";
-import {Nav} from "./Nav";
-import {Main} from "./Main";
-
+import "./App.css";
+import Navbar from "./components/nav/Navbar";
+import Routing from "./components/Routing";
+import Footer from "./components/Footer";
 function App() {
   return (
-      <app className="App">
-        <Header/>
-        <Nav/>
-        <Main/>
-        <Footer/>
-      </app>
+      <>
+        <Navbar />
+        <Routing />
+        <Footer />
+      </>
   );
 }
 
